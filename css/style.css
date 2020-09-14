@@ -1,0 +1,233 @@
+body {
+    margin: 0px;
+    padding: 0;
+    background-color: white;
+    font-family: 'Bai Jamjuree', sans-serif;
+    height: 100vh;
+ }
+ html {
+    font-family: 'Bai Jamjuree', sans-serif;
+     font-size: 18px;
+     font-Weight: 400, 600;
+ }
+ .sec-1 .ios{
+     text-decoration: none;
+     border: 2px solid rgba(255, 255, 255, 0.199);
+    background-color:hsl(171, 66%, 44%);
+    border-radius: 20px;
+  
+ }
+
+ .sec-1 .mac{
+    text-decoration: none;
+    border: 2px solid rgba(255, 255, 255, 0.199);
+   background-color:hsl(233, 100%, 69%);
+   border-radius: 20px;
+ 
+}
+
+ h2{
+    color: hsl(210, 10%, 33%);
+ }
+
+ p{
+    color:hsl(201, 11%, 66%);
+ }
+
+ .container{
+     width:1140px;
+     margin: auto;
+ }
+
+ .row{
+     display: flex;
+     flex-wrap: wrap;
+ }
+ 
+
+
+.head-img {
+    background-image: url(/images/bg-header-desktop.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 45vh;
+
+}
+
+.head-img .main-img{
+    padding:120px 0 0 600px ;
+}
+
+
+.sec-1 {
+    text-align: center;
+    padding: 16px;
+}
+
+.sec-1 p{
+    padding:0 250px 0px 400px;
+}
+.sec-1 a{
+    padding:0 20px 0 56px;
+
+}
+
+
+.sec-2 {
+    text-align: center;
+    padding: 16px;
+}
+
+.sec-2 p{
+    padding:0 250px 0px 380px;
+}
+
+
+.sec-3{
+    padding: 16px;
+}
+
+.sec-3 .slide-1 img{
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 80vh;
+}
+.sec-3 .slide-1{
+    flex : 0 0 60%;
+    width:10%;
+}
+
+.sec-3 .silde-2{
+    flex : 0 0 50%;
+    width:20%;
+}
+
+.sec-3 .slide-2 h2{
+    padding:0px 32px 0px 0px;
+}
+
+.sec-4 {
+    text-align: center;
+    padding: 16px;
+}
+
+.sec-4 p{
+    padding:0 250px 0px 320px;
+}
+
+.sec-5 {
+    text-align: center;
+    padding: 16px;
+}
+
+
+
+.sec-6 {
+    text-align: center;
+    padding: 16px;
+}
+
+.sec-6 p{
+    padding:0 120px 0px 160px;
+}
+
+
+
+
+.sec-7 {
+    padding:16px;
+}
+
+.sec-7 .slide-1, .slide-2, .slide-3{
+ flex : 0 0 30%;
+ width:30%;
+ text-align: center;
+ padding:16px;
+}
+
+
+
+
+
+.sec-8 {
+    margin:0;
+    padding:16px;
+}
+.sec-8 .icon-1, .icon-2, .icon-3, .icon-4, .icon-5{
+    flex:0 0 5%;
+    width: 15%;
+    padding:16px 40px;
+}
+
+.sec-9 .ios{
+    text-decoration: none;
+    border: 2px solid rgba(255, 255, 255, 0.199);
+   background-color:hsl(171, 66%, 44%);
+   border-radius: 20px;
+ 
+}
+
+.sec-9 .mac{
+   text-decoration: none;
+   border: 2px solid rgba(255, 255, 255, 0.199);
+  background-color:hsl(233, 100%, 69%);
+  border-radius: 20px;
+
+}
+
+
+
+.sec-9 {
+    text-align: center;
+    padding: 16px;
+}
+
+
+.sec-9 p{
+    padding:0 150px 0px 350px;
+}
+.sec-9 a{
+    padding:0 20px 0 56px;
+
+}
+
+
+
+footer {
+    padding: 16px;
+    background-color: aqua;
+}
+
+.end .slide-icon{
+    flex:0 0 2%;
+ 
+    text-align: left;
+    height: 20vh;;
+}
+
+.end .slide{
+    flex:0 0 35%;
+
+
+}
+
+.end .slide a{
+    text-decoration: none;
+    padding:64px 32px 64px 150px ;
+    color: hsl(210, 10%, 33%);
+}
+
+.end .icon{
+    flex:0 0 30%;
+
+    text-align: end;
+    padding:64px 12px 0 160px ;
+}
+
+.end .icon img{
+    padding: 0 16px;
+}
+
+.end .icon img:hover{
+    opacity: .5;
+}
